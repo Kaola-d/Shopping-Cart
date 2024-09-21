@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert</title>
+    <link rel="icon" href="./Images/cartfavicon-32x32.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="grandfather">
+        <h1 class="dessert">Desserts</h1>
+
+        <div class="father">
+            <div class="productLists">
+            
+                <div class="productRow">
+                    <div  class="product" id="product-1">
+                        <div class="figOne">
+                            <img src="./Images/image-waffle-desktop.jpg" alt="waffle with berries"><br>
+                            <button class="addto" onclick="addToCart(1, 6.50)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(1, 6.50)">-</button>
+                                <div class="red" id="item-1-quantity">1</div>
+                                <button class="red" onclick="addToCart(1, 6.50)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Waffle<br>Waffle with Berries</figcaption>
+                        <p class="price">$6.50</p>
+                    </div>
+                    <div  class="product" id="product-2">
+                        <div class="figOne">
+                            <img src="./Images/image-creme-brulee-desktop.jpg" alt="Creme Brulee"><br>
+                            <button class="addto" onclick="addToCart(2, 7)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(2, 7)">-</button>
+                                <div class="red" id="item-2-quantity">1</div>
+                                <button class="red" onclick="addToCart(2, 7)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Creme Brulee<br>Vanilla Bean Creme Brulee</figcaption>
+                        <p class="price">$7.00</p>
+                    </div>
+            
+                    <div  class="product" id="product-3">
+                        <div class="figOne">
+                            <img src="./Images/image-macaron-desktop.jpg" alt="macaron"><br>
+                            <button class="addto" onclick="addToCart(3, 8)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(3, 8)">-</button>
+                                <div class="red" id="item-3-quantity">1</div>
+                                <button class="red" onclick="addToCart(3, 8)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Macaron<br>Macaron Mix of Five</figcaption>
+                        <p class="price">$8.00</p>
+                    </div>
+                </div>
+                <div class="productRow">
+                    <div  class="product" id="product-4">
+                        <div class="figOne">
+                            <img src="./Images/image-tiramisu-desktop.jpg" alt="tiramisu"><br>
+                            <button class="addto" onclick="addToCart(4, 5.50)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(4, 5.50)">-</button>
+                                <div class="red" id="item-4-quantity">1</div>
+                                <button class="red" onclick="addToCart(4, 5.50)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Tiramisu<br>Classic Tiramisu</figcaption>
+                        <p class="price">$5.50</p>
+                    </div>
+                    <div  class="product" id="product-5">
+                        <div class="figOne">
+                            <img src="./Images/image-baklava-desktop.jpg" alt="baklava"><br>
+                            <button class="addto" onclick="addToCart(5, 4)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(5, 4)">-</button>
+                                <div class="red" id="item-5-quantity">1</div>
+                                <button class="red" onclick="addToCart(5, 4)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Baklava<br>Pistachio Baklava</figcaption>
+                        <p class="price">$4.00</p>
+                    </div>
+            
+                    <div  class="product" id="product-6">
+                        <div class="figOne">
+                            <img src="./Images/image-meringue-desktop.jpg" alt="meringue"><br>
+                            <button class="addto" onclick="addToCart(6, 5)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(6, 5)">-</button>
+                                <div class="red" id="item-6-quantity">1</div>
+                                <button class="red" onclick="addToCart(6, 5)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Pie<br>Lemon Meringue Pie</figcaption>
+                        <p class="price">$5.00</p>
+                    </div>
+                </div>
+                <div class="productRow">
+                    <div  class="product" id="product-7">
+                        <div class="figOne">
+                            <img src="./Images/image-cake-desktop.jpg" alt="cake"><br>
+                            <button class="addto" onclick="addToCart(7, 4.5)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(7, 4.5)">-</button>
+                                <div class="red" id="item-7-quantity">1</div>
+                                <button class="red" onclick="addToCart(7, 4.5)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Cake<br>Red Velvet Cake</figcaption>
+                        <p class="price">$4.50</p>
+                    </div>
+                    <div  class="product" id="product-8">
+                        <div class="figOne">
+                            <img src="./Images/image-brownie-desktop.jpg" alt="brownie"><br>
+                            <button class="addto" onclick="addToCart(8, 4.5)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(8, 4.5)">-</button>
+                                <div class="red" id="item-8-quantity">1</div>
+                                <button class="red" onclick="addToCart(8, 4.5)">+</button>
+                            </div>
+                        </div>
+                        <figcaption class="figCapOne">Brownie<br>Salted Caramel Brownie</figcaption>
+                        <p class="price">$4.50</p>
+                    </div>
+            
+                    <div  class="product" id="product-9">
+                        <div class="figOne">
+                            <img src="./Images/image-panna-cotta-desktop.jpg" alt="meringue"><br>
+                            <button class="addto" onclick="addToCart(9, 6.5)" > <img class="iconCart" src="./Images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                            <div class="controls" >
+                                <button class="red" onclick="removeFromCart(9, 6.5)">-</button>
+                                <div class="red" id="item-9-quantity">1</div>
+                                <button class="red" onclick="addToCart(9, 6.5)">+</button>
+                            </div>
+                        </div>
+                        <figcaption id="figcaption" class="figCapOne">Panna Cotta<br>Vanilla Panna Cotta</figcaption>
+                        <p class="price">$6.50</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="yourCart">
+
+                <div class="cart-info">
+                    <span class="your">Your Cart: <span id="cart-count">(0)</span></span><br><br>
+
+                    <!-- Display Selected Items -->
+                    <div id="selected-items">
+                        <h3>Selected Items:</h3>
+                        <ul id="item-list"><img class="empty" src="./Images/illustration-empty-cart.svg" alt=""></ul> <!-- This will hold the selected items -->
+                    </div><br><br>
+
+                    <div class="carbon">
+                        <img class="carbonimg" src="./Images/icon-carbon-neutral.svg" alt="">
+                        <p class="carbonp">This is a <b>carbon-neutral</b> delivery</p>
+                    </div><br>
+
+                    <span>Order Total : $<span id="total-price">0.00</span></span>
+                </div><br>
+                
+                
+
+                <div class="cart-controls"></div>
+
+                    <button class="reset-btn" id="reset-btn" onclick="resetCart()">Reset All Cart</button><br><br>
+
+                    <button class="confirm-btn" id="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
+
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div id="order-confirm-popup" class="popup">
+            <div class="popup-content">
+                <div class="confirmed-icon"> <img class="conf" src="./Images/icon-order-confirmed.svg" alt=""> </div> 
+                <h2>Order Confirmed</h2>
+                <p>We hope you enjoy your food</p>
+                <div id="order-summary"></div>
+                <p><strong>Total Price: $<span id="popup-total-price">0.00</span></strong></p> <!-- Display Total Price -->
+                <button class="confirm-btn" onclick="startNewOrder()">Start a New Order</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
