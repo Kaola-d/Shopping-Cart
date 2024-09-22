@@ -207,6 +207,7 @@ img{
     .product {
         width: 45%; /* Laptop */
     }
+  
   }
   
   @media (max-width: 768px) {
@@ -215,10 +216,14 @@ img{
     }
   
     .yourCart {
-        width: 40%;
+        width: 100%;
         margin-top: 2550px;
         height: auto;
         margin-right: 200px;
+    }
+
+    .popup{
+        width: 100%;
     }
   
     .father {
@@ -228,6 +233,7 @@ img{
     .dessert{
         margin-left: 120px;
     }
+    
   }
   
   @media (max-width: 480px) {
@@ -240,10 +246,14 @@ img{
     }
 
     .yourCart {
-        width: 40%;
+        width: 100%;
         margin-top: 2550px;
         height: auto;
         margin-right: 200px;
+    }
+
+    .popup{
+        width: 100%;
     }
   
     .father {
@@ -253,4 +263,5 @@ img{
     .dessert{
         margin-left: 120px;
     }
+   
   }
