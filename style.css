@@ -33,7 +33,7 @@ img{
 
  .productRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px;
     
