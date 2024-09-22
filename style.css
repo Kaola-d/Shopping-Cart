@@ -238,11 +238,12 @@ img{
         align-items: center;
     }
     .dessert{
-        margin-left: 120px;
+        margin-left: 150px;
     }
 
     .productRow{
         align-items: center;
+        margin-left: 50px;
     }
     
   }
@@ -271,11 +272,12 @@ img{
         align-items: center;
     }
     .dessert{
-        margin-left: 120px;
+        margin-left: 150px;
     }
 
     .productRow{
         align-items: center;
+        margin-left: 50px;
     }
    
   }
