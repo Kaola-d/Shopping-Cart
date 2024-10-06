@@ -263,9 +263,10 @@ img{
     
     .productLists {
         width: 100%;
-        display: flex;
+/*         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
+       margin-left: 0;
     }
 
     .yourCart {
@@ -281,6 +282,7 @@ img{
     .father {
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
     
 
